@@ -1,0 +1,105 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* page1 content style */
+.page1 .logo {
+    display: inline-block;
+    margin-top: 3em;
+}
+.page1 .logo a {
+    display: block;
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+}
+.page1 .text-content {
+    margin-top: 2em; 
+    font-size: 1.6em; 
+    font-family: 'LithosPro-Regular', 'Lato-light';
+}
+.page1 .text-content em {
+    color: yellow
+}
+.page1 .down-arrow {
+    display: inline-block;
+    width: 56px;
+    height: 56px;
+    background: url(../images/icon_img/down-arrrow.png) no-repeat center;
+    opacity: 0.8;
+    position: absolute;
+    bottom: 200px;
+    -webkit-transiton: opacity 0.3s ease-in;
+    -o-transiton: opacity 0.3s ease-in;
+    -o-transiton: opacity 0.3s ease-in;
+    transition: opacity 0.3s ease-in;
+}
+.page1 .down-arrow:hover{
+    opacity: 1;
+    transition: opacity 0.3s ease-in;
+}
+/* some common style */
+
+.content-title {
+    font-size: 1.5em;
+}
+
+.coder-designer {
+    display: inline-block;
+    height: 91px;
+    margin-top: 1em;
+}
+
+.paragraph {
+    display: inline-block;
+    width: 100%;
+    margin-top: 2em;
+    padding-left: 2em;
+    padding-right: 2em;
+    font-size: 1.1em;
+    text-align: center;
+    line-height: 1.5;
+    filter: alpha(opacity=0);
+    opacity: 0;
+}
+.paragraph span {
+    display: inline-block;
+    width: 100%; 
+    font-size: 1.3em;
+}
+
+/* page4 content style */
+.services-content{
+    display: inline-block;
+    margin-top: 2em;
+    filter: alpha(opacity=0);
+    opacity: 0;
+}
+.services-content li{
+    float: left;
+    width: 116px;
+    height: auto;
+    margin-right: 4em;
+    color: white;
+    font-size: 0.5em;
+    font-weight: 600;
+}
+.services-content li:last-child{
+    margin-right: 0;
+}
+.services-content li img {
+    display: inline-block;
+}
+
+/* page5 content style */
+.blog-icon {
+    filter: alpha(opacity=0);
+    opacity: 0;
+}
+
+@media (min-width: 769px) and (max-width: 1024px){
+    .paragraph {
+        padding: 0;
+        margin-top: 1em;
+    }
+
+}
