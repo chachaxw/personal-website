@@ -29,12 +29,12 @@ html, body {
 
 body {
 	background: #f5f5f5 url(../images/background-img.jpg) no-repeat center center/cover;
-    background-size: 1980px auto;
+    background-size: auto;
 	color: #000000;
 	font-weight: 400;
-	font-size: 18px;
+	font-size: 16px
 	line-height: 1.2;
-	font-family: 'Lato-light', arial;
+	font-family: 'Lato-light', 'arial';
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	overflow: hidden;
@@ -44,6 +44,7 @@ a {
 	color: #000000;
 	text-decoration: none;
 	outline: none;
+    -webkit-tap-highlight-color: rgba(0,0,0,0)
 }
 
 a:hover,
@@ -166,6 +167,7 @@ ul, ol{list-style: none; padding: 0;}
     -moz-transition: color 0.3s ease-in;
     -webkit-transition: color 0.3s ease-in;
     transition: color 0.3s ease-in;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 .view-more::before{
     content: '';
@@ -191,6 +193,21 @@ ul, ol{list-style: none; padding: 0;}
     -webkit-transition: margin-left 0.3s ease-out, opacity 0.6s ease-in;
     transition: margin-left 0.3s ease-out, opacity 0.6s ease-in;
 }
+
+/* mobile css style */ 
+@media only screen and (max-width: 480px){
+    .big-btn {
+        bottom: 100px;
+        margin-left: -60px;
+    }
+    
+    .view-more {
+        width: 120px; 
+        height: 32px;
+    }
+}
+
+
 
 /* footer style */
 .footer{
