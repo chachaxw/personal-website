@@ -37,11 +37,9 @@ $(document).ready(function() {
             
             if($('.menu-box').css('left') == '-245px'){
                 _this.animate({left: '265px'}, 350);
-                $('.menu-box').animate({left: '0'}, 350);
-                $('#superContainer').animate({marginLeft: '245px'}, 350);     
+                $('.menu-box').animate({left: '0'}, 350);    
             }else{
                 $('.menu-box').animate({left: '-245px'}, 350);
-                $('#superContainer').animate({marginLeft: '0'}, 350);
                 _this.animate({left: '1em'}, 350);
             }
         });
