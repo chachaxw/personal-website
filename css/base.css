@@ -123,6 +123,7 @@ ul, ol{list-style: none; padding: 0;}
     margin: 2.5em auto; 
     font-size: 0.87em; 
     line-height: 1.5;
+    color: white;
 }
 .social-component ul li{
     float: left; margin-right: 0.2em;
