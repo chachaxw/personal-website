@@ -107,6 +107,10 @@
     .content-title {
         font-size: 1em;
     }
+    .blog-icon {
+        width: 100px;
+        height: 100px;
+    }
             
 }
 
