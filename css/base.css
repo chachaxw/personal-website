@@ -150,9 +150,9 @@ ul, ol{list-style: none; padding: 0;}
 /* big button style */
 .big-btn{
     position: absolute; 
-    bottom: 200px; 
     left: 50%; 
     margin-left: -105px;
+    margin-top: 5em;
     overflow: hidden;
 }
 .view-more {
@@ -197,9 +197,8 @@ ul, ol{list-style: none; padding: 0;}
 
 /* mobile css style */ 
 @media only screen and (max-width: 480px){
-    .big-btn {
-        bottom: 100px;
-        margin-left: -60px;
+    body {
+        background: #f5f5f5 url(../images/min-background-img.jpg) no-repeat center center/cover;
     }
     
     .view-more {
