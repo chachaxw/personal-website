@@ -36,16 +36,16 @@ $(document).ready(function() {
             var _this = $(this);
             
             if($('.menu-box').css('left') == '-245px'){
-                _this.animate({left: '265px'}, 350);
-                $('.menu-box').animate({left: '0'}, 350);    
+                _this.animate({left: '265px'}, 300);
+                $('.menu-box').animate({left: '0'}, 300);    
             }else{
-                $('.menu-box').animate({left: '-245px'}, 350);
-                _this.animate({left: '1em'}, 350);
+                $('.menu-box').animate({left: '-245px'}, 300);
+                _this.animate({left: '1em'}, 300);
             }
         });
         $('.close-btn, .main').on("click", function(){
-            $('.menu-btn').animate({left: '1em'}, 350);
-            $('#superContainer').animate({marginLeft: '0'}, 350);
-            $('.menu-box').animate({left: '-245px'}, 350);
+            $('.menu-btn').animate({left: '1em'}, 300);
+            $('#superContainer').animate({marginLeft: '0'}, 300);
+            $('.menu-box').animate({left: '-245px'}, 300);
         });
 });
