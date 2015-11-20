@@ -21,13 +21,15 @@
 .page1 .text-content em {
     color: yellow
 }
+#particles-js canvas{position: absolute; top: 0; left: 0}
+
 .down-arrow {
     display: inline-block;
     width: 56px;
     height: 56px;
     margin-top: 1em;
     background: url(../images/icon_img/down-arrrow.png) no-repeat center;
-    opacity: 0.67;
+    opacity: 0.5;
     -webkit-transiton: opacity 0.3s ease-in;
     -o-transiton: opacity 0.3s ease-in;
     -o-transiton: opacity 0.3s ease-in;
