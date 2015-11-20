@@ -21,24 +21,29 @@
 .page1 .text-content em {
     color: yellow
 }
-#particles-js canvas{position: absolute; top: 0; left: 0}
+#particles-js canvas{position: absolute; top: 0; left: 0;z-index: -999}
 
 .down-arrow {
     display: inline-block;
-    width: 56px;
-    height: 56px;
-    margin-top: 1em;
-    background: url(../images/icon_img/down-arrrow.png) no-repeat center;
-    opacity: 0.5;
-    -webkit-transiton: opacity 0.3s ease-in;
-    -o-transiton: opacity 0.3s ease-in;
-    -o-transiton: opacity 0.3s ease-in;
-    transition: opacity 0.3s ease-in;
+    width: 36px;
+    height: 36px;
+    margin-top: 2rem;
+    background: url(../images/icon_img/iconfont-mouse.png) no-repeat center;
+    opacity: 0.6;
+    animation: flash 5s infinite;
+    -webkit-animation: flash 5s infinite;
+    -moz-animation: flash 5s infinite;
 }
-.down-arrow:hover{
-    opacity: 1;
-    transition: opacity 0.3s ease-in;
+@keyframes flash
+{
+    from {opacity: 0.6}
+    to {opacity: 1}
 }
+@-webkit-keyframes flash{
+    from {opacity: 0.6}
+    to {opacity: 1}
+}
+
 /* some common style */
 
 .content-title {
