@@ -199,9 +199,11 @@ ul, ol{list-style: none; padding: 0;}
 
 /* mobile css style */ 
 @media only screen and (max-width: 480px){
+/*
     body {
         background: #f5f5f5 url(../images/min-background-img.jpg) no-repeat center center/cover;
     }
+*/
     
     .view-more {
         width: 120px; 
